@@ -67,11 +67,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.all(15),
+                    padding: const EdgeInsets.all(15),
                     alignment: Alignment.centerRight,
                     child: Text(
                       answer,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 30,
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
